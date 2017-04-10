@@ -43,10 +43,6 @@ img {
     margin-top: 6rem;
 }
 
-#about {
-  background-color: #EFEFEF;
-  display: inline-block;
-}
 #secpf {
   display: inline-block;
   margin-top: 3rem;
@@ -55,61 +51,6 @@ img {
 
 }
 
-#contact {
-  margin-top: 2rem;
-  background-color: #EFEFEF;
-}
-
-#intro {
-  font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  margin: 3rem;
-  font-size: 1.5rem;
-  float: left;
-}
-
-.mytable {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom-color: #F3F2F2;
-  border-bottom-style: inset;
-  display: table;
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.mydsp {
-  padding-left: 6rem;
-  display: table-footer-group;
-}
-
-.myimg {
-  display: table-header-group;
-}
-
-.dsp1 {
-  font-size: 3rem;
-  color: #25211E;
-  font-weight: 300;
-}
-
-.dsp2 {
-  color: #4A4A4A;
-  font-size: 1.5rem;
-  font-weight: normal;
-}
-
-#aboutlist {
-  float: left;
-  font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  font-size: 1rem;
-}
-
-span {
-  font-weight: bold;
-}
-#mysocial {
-  display: none;
-}
 #footer {
   background-color: #25211E;
   width: auto;
@@ -121,30 +62,17 @@ span {
   padding-top: 2rem;
 }
 
-.mycontact {
-  margin-top: 4rem;
-  margin-left: 4rem;
-  margin-bottom: 4rem;
-}
-#contact-title {
-  padding-top: 4rem;
-  font-size: 3rem;
-}
 #thirdpf {
   display: none;
 }
 
-#dribbble-social {
-  background-color: #d3467d;
-  border-color: 	#af2059;
-}
-#linkedin-social {
-  background-color: #0083be;
-  border-color: #0083be;
-}
 
 /* for computer screen*/
 @media only screen and (min-width: 840px) {
+    html,body
+    {
+        overflow-x: hidden; 
+    }
     #thirdpf {
       display: inline;
     }
@@ -174,45 +102,6 @@ span {
       width: 40rem;
       float: left;
     }
-    #intro {
-      font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-      margin-top: 10rem;
-      margin-right: 5rem;
-      margin-bottom: 8rem;
-      font-size: 2rem;
-    }
-    .mytable {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-      border-bottom-color: #F3F2F2;
-      border-bottom-style: inset;
-    }
-    .mytable:hover{
-      background-color: #E5EFF1;
-    }
-    .mydsp {
-      padding-top: 4rem;
-      margin-left: 5rem;
-    }
-    .myimg {
-      margin-left: 6rem;
-    }
-
-    .dsp1 {
-      font-size: 6rem;
-      color: #25211E;
-      font-weight: 300;
-    }
-
-    .dsp2 {
-      color: #4A4A4A;
-      font-size: 2rem;
-      font-weight: normal;
-    }
-    #contact {
-      margin-top: 4rem;
-      background-color: #EFEFEF;
-    }
     #thirdpf {
       padding-left: 6rem;
       padding-top: 6rem;
@@ -234,21 +123,4 @@ span {
     .btn {
       icon: auto;
     }
-    .mycontact {
-      margin-top: 4rem;
-      margin-left: 4rem;
-    }
-    #contact-title {
-      padding-top: 8rem;
-      font-size: 4rem;
-    }
-    #dribbble-social {
-      background-color: #d3467d;
-      border-color: 	#af2059;
-    }
-    #linkedin-social {
-      background-color: #0083be;
-      border-color: #0083be;
-    }
-
 }
