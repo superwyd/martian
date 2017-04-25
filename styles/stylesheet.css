@@ -72,12 +72,26 @@ img {
     html,body
     {
         overflow-x: hidden; 
+        margin: auto;
+    }
+    h2 {
+      font-weight: 200;
+      font-size: 4rem;
+      padding-bottom: 2rem;
+    }
+    h3 {
+      font-weight: 100;
+      font-size: 3rem;
+      margin: 3rem 0rem;
     }
     #thirdpf {
       display: inline;
     }
     .topic {
-      margin: 4rem;
+      margin: auto;
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+      width: 70%;
     }
     #tech {
       margin-top: 60rem;
