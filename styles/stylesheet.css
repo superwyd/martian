@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  background-color: #FFFFFF;
+  background-color: #c0c0c0;
 }
 
 #portfolio {
@@ -14,23 +14,30 @@ body {
 
 .navbar {
   margin-bottom: 0;
-  box-shadow: 0 0.3rem 1rem 0 rgba(0,0,0,0.50);
   height: 5rem;
-  background-color: #25211E;
-
+  background-color: transparent;
+  border: none;
 }
-.navbar-brand {
-  width: 5.8rem;
-  font-size: 5rem;
-  font-family: "Edo SZ";
+.word {
+  color: black;
+  font-weight: 200;
 }
 .navbar-inverse .navbar-brand {
   color: #A68E4A;
   margin: 0.1rem 0 0 0;
 }
 .navbar-inverse .navbar-nav>li>a{
+  color: black;
   font-size: 1.5rem;
   margin: 0.5rem 0 0 0;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+  color: #896A55;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: transparent;
+  color: black;
+  border-bottom: solid;
 }
 
 
@@ -40,7 +47,9 @@ img {
     float: left;
 }
 #firstpf {
-    margin-top: 6rem;
+    margin-top: 0;
+    position: relative;
+    width: 100%;
 }
 
 #secpf {
@@ -106,6 +115,29 @@ img {
     }
     #firstpf {
         margin-top: 0;
+        position: relative;
+        width: 100%;
+    }
+    #home-title {
+      text-align: center;
+      margin-top: 20rem;
+      position: absolute;
+      width: 100%;
+      font-family: avenir;
+      color:#F0ECE9;
+      font-size: 9rem;
+      font-weight: 500;
+    }
+    #home-group {
+      position: absolute;
+      text-align: center;
+      margin-top: 35rem;
+      position: absolute;
+      width: 100%;
+      font-family: avenir;
+      color: #F0ECE9;
+      font-size: 3rem;
+      font-weight: 100;
     }
     #aboutlist {
       float: left;
