@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
-  background-color: #c0c0c0;
+  background-color: #EFEFEF;
 }
 
 #portfolio {
@@ -58,6 +58,11 @@ body {
   border-bottom: solid;
 }
 
+#topic, #others {
+  background-color: #E4E4DA;
+  width: 100%;
+  padding: 6rem 16rem;
+}
 
 img {
     width: 100%;
